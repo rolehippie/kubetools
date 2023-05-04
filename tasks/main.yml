@@ -1,0 +1,84 @@
+# Standards: 1.2
+---
+- name: Download argocd release
+  when:
+    - kubetools_argocd_enabled
+  get_url:
+    url: "{{ kubetools_argocd_download }}"
+    dest: "{{ kubetools_install_path }}/argocd"
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+  tags:
+    - kubetools
+
+- name: Download clusterctl release
+  when:
+    - kubetools_clusterctl_enabled
+  get_url:
+    url: "{{ kubetools_clusterctl_download }}"
+    dest: "{{ kubetools_install_path }}/clusterctl"
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+  tags:
+    - kubetools
+
+- name: Download kind release
+  when:
+    - kubetools_kind_enabled
+  get_url:
+    url: "{{ kubetools_kind_download }}"
+    dest: "{{ kubetools_install_path }}/kind"
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+  tags:
+    - kubetools
+
+- name: Download stern release
+  when:
+    - kubetools_stern_enabled
+  unarchive:
+    src: "{{ kubetools_stern_download }}"
+    dest: "{{ kubetools_install_path }}"
+    include:
+      - stern
+    remote_src: True
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+  tags:
+    - kubetools
+
+- name: Download k9s release
+  when:
+    - kubetools_k9s_enabled
+  unarchive:
+    src: "{{ kubetools_k9s_download }}"
+    dest: "{{ kubetools_install_path }}"
+    include:
+      - k9s
+    remote_src: True
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+  tags:
+    - kubetools
+
+- name: Download sonobuoy release
+  when:
+    - kubetools_sonobuoy_enabled
+  unarchive:
+    src: "{{ kubetools_sonobuoy_download }}"
+    dest: "{{ kubetools_install_path }}"
+    include:
+      - sonobuoy
+    remote_src: True
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+  tags:
+    - kubetools
+
+...

@@ -1,0 +1,84 @@
+# Standards: 1.2
+---
+# @var kubetools_argocd_enabled:description: Enable installation of argocd cli
+kubetools_argocd_enabled: True
+
+# @var kubetools_argocd_version:description: Version of argocd to install
+# renovate: datasource=github-releases depName=argoproj/argo-cd
+kubetools_argocd_version: 2.7.1
+
+# @var kubetools_argocd_arch:description: Architecture for argocd
+kubetools_argocd_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+
+# @var kubetools_argocd_download:description: URL to download argocd from
+kubetools_argocd_download: "https://github.com/argoproj/argo-cd/releases/download/v{{ kubetools_argocd_version }}/argocd-linux-{{ kubetools_argocd_arch }}"
+
+# @var kubetools_clusterctl_enabled:description: Enable installation of clusterctl cli
+kubetools_clusterctl_enabled: True
+
+# @var kubetools_clusterctl_version:description: Version of clusterctl to install
+# renovate: datasource=github-releases depName=kubernetes-sigs/cluster-api
+kubetools_clusterctl_version: 1.4.2
+
+# @var kubetools_clusterctl_arch:description: Architecture for clusterctl
+kubetools_clusterctl_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+
+# @var kubetools_clusterctl_download:description: URL to download clusterctl from
+kubetools_clusterctl_download: "https://github.com/kubernetes-sigs/cluster-api/releases/download/v{{ kubetools_clusterctl_version }}/clusterctl-linux-{{ kubetools_clusterctl_arch }}"
+
+# @var kubetools_kind_enabled:description: Enable installation of kind cli
+kubetools_kind_enabled: True
+
+# @var kubetools_kind_version:description: Version of kind to install
+# renovate: datasource=github-releases depName=kubernetes-sigs/kind
+kubetools_kind_version: 0.18.0
+
+# @var kubetools_kind_arch:description: Architecture for kind
+kubetools_kind_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+
+# @var kubetools_kind_download:description: URL to download kind from
+kubetools_kind_download: "https://github.com/kubernetes-sigs/kind/releases/download/v{{ kubetools_kind_version }}/kind-linux-{{ kubetools_kind_arch }}"
+
+# @var kubetools_stern_enabled:description: Enable installation of stern cli
+kubetools_stern_enabled: True
+
+# @var kubetools_stern_version:description: Version of stern to install
+# renovate: datasource=github-releases depName=stern/stern
+kubetools_stern_version: 1.25.0
+
+# @var kubetools_stern_arch:description: Architecture for stern
+kubetools_stern_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+
+# @var kubetools_stern_download:description: URL to download stern from
+kubetools_stern_download: "https://github.com/stern/stern/releases/download/v{{ kubetools_stern_version }}/stern_{{ kubetools_stern_version }}_linux_{{ kubetools_stern_arch }}.tar.gz"
+
+# @var kubetools_k9s_enabled:description: Enable installation of k9s cli
+kubetools_k9s_enabled: True
+
+# @var kubetools_k9s_version:description: Version of k9s to install
+# renovate: datasource=github-releases depName=derailed/k9s
+kubetools_k9s_version: 0.27.3
+
+# @var kubetools_k9s_arch:description: Architecture for k9s
+kubetools_k9s_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+
+# @var kubetools_k9s_download:description: URL to download k9s from
+kubetools_k9s_download: "https://github.com/derailed/k9s/releases/download/v{{ kubetools_k9s_version }}/k9s_Linux_{{ kubetools_k9s_arch }}.tar.gz"
+
+# @var kubetools_sonobuoy_enabled:description: Enable installation of sonobuoy cli
+kubetools_sonobuoy_enabled: True
+
+# @var kubetools_sonobuoy_version:description: Version of sonobuoy to install
+# renovate: datasource=github-releases depName=vmware-tanzu/sonobuoy
+kubetools_sonobuoy_version: 0.56.16
+
+# @var kubetools_sonobuoy_arch:description: Architecture for sonobuoy
+kubetools_sonobuoy_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
+
+# @var kubetools_sonobuoy_download:description: URL to download sonobuoy from
+kubetools_sonobuoy_download: "https://github.com/vmware-tanzu/sonobuoy/releases/download/v{{ kubetools_sonobuoy_version }}/sonobuoy_{{ kubetools_sonobuoy_version }}_linux_{{ kubetools_sonobuoy_arch }}.tar.gz"
+
+# @var kubetools_install_path:description: Path to install the binaries
+kubetools_install_path: /usr/bin
+
+...
