@@ -137,7 +137,7 @@ Version of clusterctl to install
 #### Default value
 
 ```YAML
-kubetools_clusterctl_version: 1.4.2
+kubetools_clusterctl_version: 1.4.3
 ```
 
 ### kubetools_install_path
