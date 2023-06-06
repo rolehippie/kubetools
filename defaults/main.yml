@@ -18,7 +18,7 @@ kubetools_clusterctl_enabled: True
 
 # @var kubetools_clusterctl_version:description: Version of clusterctl to install
 # renovate: datasource=github-releases depName=kubernetes-sigs/cluster-api
-kubetools_clusterctl_version: 1.4.2
+kubetools_clusterctl_version: 1.4.3
 
 # @var kubetools_clusterctl_arch:description: Architecture for clusterctl
 kubetools_clusterctl_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
