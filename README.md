@@ -25,6 +25,10 @@ Building and improving this Ansible role have been sponsored by my current and p
   - [kubetools_clusterctl_download](#kubetools_clusterctl_download)
   - [kubetools_clusterctl_enabled](#kubetools_clusterctl_enabled)
   - [kubetools_clusterctl_version](#kubetools_clusterctl_version)
+  - [kubetools_flux_arch](#kubetools_flux_arch)
+  - [kubetools_flux_download](#kubetools_flux_download)
+  - [kubetools_flux_enabled](#kubetools_flux_enabled)
+  - [kubetools_flux_version](#kubetools_flux_version)
   - [kubetools_install_path](#kubetools_install_path)
   - [kubetools_k9s_arch](#kubetools_k9s_arch)
   - [kubetools_k9s_download](#kubetools_k9s_download)
@@ -63,8 +67,8 @@ Architecture for argocd
 #### Default value
 
 ```YAML
-kubetools_argocd_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kubetools_argocd_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kubetools_argocd_download
@@ -105,8 +109,8 @@ Architecture for clusterctl
 #### Default value
 
 ```YAML
-kubetools_clusterctl_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kubetools_clusterctl_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kubetools_clusterctl_download
@@ -140,6 +144,48 @@ Version of clusterctl to install
 kubetools_clusterctl_version: 1.4.3
 ```
 
+### kubetools_flux_arch
+
+Architecture for flux
+
+#### Default value
+
+```YAML
+kubetools_flux_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
+```
+
+### kubetools_flux_download
+
+URL to download flux from
+
+#### Default value
+
+```YAML
+kubetools_flux_download: https://github.com/fluxcd/flux2/releases/download/v{{ kubetools_flux_version
+  }}/flux_{{ kubetools_flux_version }}_linux_{{ kubetools_flux_arch }}.tar.gz
+```
+
+### kubetools_flux_enabled
+
+Enable installation of flux cli
+
+#### Default value
+
+```YAML
+kubetools_flux_enabled: true
+```
+
+### kubetools_flux_version
+
+Version of flux to install
+
+#### Default value
+
+```YAML
+kubetools_flux_version: 0.41.2
+```
+
 ### kubetools_install_path
 
 Path to install the binaries
@@ -157,8 +203,8 @@ Architecture for k9s
 #### Default value
 
 ```YAML
-kubetools_k9s_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kubetools_k9s_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kubetools_k9s_download
@@ -199,8 +245,8 @@ Architecture for kind
 #### Default value
 
 ```YAML
-kubetools_kind_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kubetools_kind_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kubetools_kind_download
@@ -241,8 +287,8 @@ Architecture for sonobuoy
 #### Default value
 
 ```YAML
-kubetools_sonobuoy_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kubetools_sonobuoy_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kubetools_sonobuoy_download
@@ -284,8 +330,8 @@ Architecture for stern
 #### Default value
 
 ```YAML
-kubetools_stern_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kubetools_stern_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kubetools_stern_download

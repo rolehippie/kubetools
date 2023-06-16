@@ -81,4 +81,19 @@
   tags:
     - kubetools
 
+- name: Download flux release
+  when:
+    - kubetools_flux_enabled
+  unarchive:
+    src: "{{ kubetools_flux_download }}"
+    dest: "{{ kubetools_install_path }}"
+    include:
+      - flux
+    remote_src: True
+    owner: root
+    group: root
+    mode: u=rwx,g=rx,o=rx
+  tags:
+    - kubetools
+
 ...
