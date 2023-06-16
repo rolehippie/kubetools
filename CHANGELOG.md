@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.2.0](https://github.com/rolehippie/kubetools/compare/v1.1.2...v1.2.0) (2023-06-16)
+
+
+### Features
+
+* **deps:** update dependency kubernetes-sigs/kind to v0.20.0 ([4e8ea3d](https://github.com/rolehippie/kubetools/commit/4e8ea3dc6c1090081dcae9cf171c8c06f9d4344c))
+* install flux cli ([dfc6ce3](https://github.com/rolehippie/kubetools/commit/dfc6ce3baec05c80bd5efadda52937ebfa80e3d2))
+
+
+### Bugfixes
+
+* **deps:** update dependency vmware-tanzu/sonobuoy to v0.56.17 ([8b96d90](https://github.com/rolehippie/kubetools/commit/8b96d9076b2c8ace1d584fe17e2ac4dde3f7f3cb))
+
 ## [1.1.2](https://github.com/rolehippie/kubetools/compare/v1.1.1...v1.1.2) (2023-06-12)
 
 
