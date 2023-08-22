@@ -44,7 +44,7 @@ kubetools_stern_enabled: True
 
 # @var kubetools_stern_version:description: Version of stern to install
 # renovate: datasource=github-releases depName=stern/stern
-kubetools_stern_version: 1.25.0
+kubetools_stern_version: 1.26.0
 
 # @var kubetools_stern_arch:description: Architecture for stern
 kubetools_stern_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
