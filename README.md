@@ -1,8 +1,8 @@
 # kubetools
 
-[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&amp;logoColor=white)](https://github.com/rolehippie/kubetools)
+[![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/kubetools)
 [![General Workflow](https://github.com/rolehippie/kubetools/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/kubetools/actions/workflows/general.yml)
-[![Readme Workflow](https://github.com/rolehippie/kubetools/actions/workflows/readme.yml/badge.svg)](https://github.com/rolehippie/kubetools/actions/workflows/readme.yml)
+[![Readme Workflow](https://github.com/rolehippie/kubetools/actions/workflows/docs.yml/badge.svg)](https://github.com/rolehippie/kubetools/actions/workflows/docs.yml)
 [![Galaxy Workflow](https://github.com/rolehippie/kubetools/actions/workflows/galaxy.yml/badge.svg)](https://github.com/rolehippie/kubetools/actions/workflows/galaxy.yml)
 [![License: Apache-2.0](https://img.shields.io/github/license/rolehippie/kubetools)](https://github.com/rolehippie/kubetools/blob/master/LICENSE)
 [![Ansible Role](https://img.shields.io/badge/role-rolehippie.kubetools-blue)](https://galaxy.ansible.com/rolehippie/kubetools)
@@ -57,7 +57,6 @@ Building and improving this Ansible role have been sponsored by my current and p
 
 - Minimum Ansible version: `2.10`
 
-
 ## Default Variables
 
 ### kubetools_argocd_arch
@@ -67,8 +66,8 @@ Architecture for argocd
 #### Default value
 
 ```YAML
-kubetools_argocd_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kubetools_argocd_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kubetools_argocd_download
@@ -109,8 +108,8 @@ Architecture for clusterctl
 #### Default value
 
 ```YAML
-kubetools_clusterctl_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kubetools_clusterctl_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kubetools_clusterctl_download
@@ -151,8 +150,8 @@ Architecture for flux
 #### Default value
 
 ```YAML
-kubetools_flux_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kubetools_flux_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kubetools_flux_download
@@ -203,8 +202,8 @@ Architecture for k9s
 #### Default value
 
 ```YAML
-kubetools_k9s_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kubetools_k9s_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kubetools_k9s_download
@@ -245,8 +244,8 @@ Architecture for kind
 #### Default value
 
 ```YAML
-kubetools_kind_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kubetools_kind_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kubetools_kind_download
@@ -287,8 +286,8 @@ Architecture for sonobuoy
 #### Default value
 
 ```YAML
-kubetools_sonobuoy_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kubetools_sonobuoy_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kubetools_sonobuoy_download
@@ -330,8 +329,8 @@ Architecture for stern
 #### Default value
 
 ```YAML
-kubetools_stern_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'\
-  \ }}"
+kubetools_stern_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64'
+  }}"
 ```
 
 ### kubetools_stern_download
