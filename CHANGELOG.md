@@ -1,5 +1,20 @@
 # Changelog
 
+## [2.3.0](https://github.com/rolehippie/kubetools/compare/v2.2.0...v2.3.0) (2023-08-31)
+
+
+### Features
+
+* **deps:** update dependency fluxcd/flux2 to v2.1.0 ([cfc48c8](https://github.com/rolehippie/kubetools/commit/cfc48c87dd21897f351ef6d9ff8dfaaecdc70afd))
+* **deps:** update dependency stern/stern to v1.26.0 ([2fbc65a](https://github.com/rolehippie/kubetools/commit/2fbc65ae877d9eed0fd9b186674d25da0bd56ceb))
+
+
+### Bugfixes
+
+* **deps:** update dependency argoproj/argo-cd to v2.8.1 ([014dd56](https://github.com/rolehippie/kubetools/commit/014dd5694b69d686fe54904aa699baf2dfea2e3b))
+* **deps:** update dependency argoproj/argo-cd to v2.8.2 ([b6ac06e](https://github.com/rolehippie/kubetools/commit/b6ac06e4c7517b78f38d0df599dd87a549af6a36))
+* **deps:** update dependency kubernetes-sigs/cluster-api to v1.5.1 ([b6fa899](https://github.com/rolehippie/kubetools/commit/b6fa8992effbf0bf6075ebc57abd904218c94f79))
+
 ## [2.2.0](https://github.com/rolehippie/kubetools/compare/v2.1.1...v2.2.0) (2023-08-14)
 
 
