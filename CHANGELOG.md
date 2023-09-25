@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.3](https://github.com/rolehippie/kubetools/compare/v2.3.2...v2.3.3) (2023-09-25)
+
+
+### Bugfixes
+
+* **deps:** update dependency fluxcd/flux2 to v2.1.1 ([8cf33c9](https://github.com/rolehippie/kubetools/commit/8cf33c9d6b8a885edefc76c2b0e7530a534b0def))
+
 ## [2.3.2](https://github.com/rolehippie/kubetools/compare/v2.3.1...v2.3.2) (2023-09-18)
 
 
