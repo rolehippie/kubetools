@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.3.4](https://github.com/rolehippie/kubetools/compare/v2.3.3...v2.3.4) (2023-10-02)
+
+
+### Bugfixes
+
+* **deps:** update dependency kubernetes-sigs/cluster-api to v1.5.2 ([f883141](https://github.com/rolehippie/kubetools/commit/f883141228b46314e2374bcabab19ac38f32ce90))
+
 ## [2.3.3](https://github.com/rolehippie/kubetools/compare/v2.3.2...v2.3.3) (2023-09-25)
 
 
