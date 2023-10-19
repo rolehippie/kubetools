@@ -70,7 +70,7 @@ kubetools_sonobuoy_enabled: True
 
 # @var kubetools_sonobuoy_version:description: Version of sonobuoy to install
 # renovate: datasource=github-releases depName=vmware-tanzu/sonobuoy
-kubetools_sonobuoy_version: 0.56.17
+kubetools_sonobuoy_version: 0.57.0
 
 # @var kubetools_sonobuoy_arch:description: Architecture for sonobuoy
 kubetools_sonobuoy_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
