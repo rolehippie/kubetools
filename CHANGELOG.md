@@ -1,5 +1,12 @@
 # Changelog
 
+## [2.4.0](https://github.com/rolehippie/kubetools/compare/v2.3.5...v2.4.0) (2023-10-23)
+
+
+### Features
+
+* **deps:** update dependency vmware-tanzu/sonobuoy to v0.57.0 ([46bc78c](https://github.com/rolehippie/kubetools/commit/46bc78c3e07386e556bdd4b51a282c983468ef33))
+
 ## [2.3.5](https://github.com/rolehippie/kubetools/compare/v2.3.4...v2.3.5) (2023-10-16)
 
 
