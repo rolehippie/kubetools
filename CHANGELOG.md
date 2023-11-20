@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.6.0](https://github.com/rolehippie/kubetools/compare/v2.5.0...v2.6.0) (2023-11-20)
+
+
+### Features
+
+* **deps:** update dependency stern/stern to v1.27.0 ([196a3c6](https://github.com/rolehippie/kubetools/commit/196a3c66509086987fab754dca7e865880f09acf))
+
+
+### Bugfixes
+
+* **deps:** update dependency argoproj/argo-cd to v2.9.1 ([a2b00c1](https://github.com/rolehippie/kubetools/commit/a2b00c12f26012ebba3cc85f98c3fec41fa08723))
+* **deps:** update dependency vmware-tanzu/sonobuoy to v0.57.1 ([ee7908d](https://github.com/rolehippie/kubetools/commit/ee7908d50c52c5e93197a17c77f6098d8f5d00b0))
+
 ## [2.5.0](https://github.com/rolehippie/kubetools/compare/v2.4.2...v2.5.0) (2023-11-13)
 
 
