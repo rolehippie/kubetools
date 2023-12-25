@@ -1,5 +1,18 @@
 # Changelog
 
+## [2.9.0](https://github.com/rolehippie/kubetools/compare/v2.8.0...v2.9.0) (2023-12-25)
+
+
+### Features
+
+* **deps:** update dependency derailed/k9s to v0.30.0 ([c31f859](https://github.com/rolehippie/kubetools/commit/c31f859ac1a36308b3da96f1cf9223e522274122))
+
+
+### Bugfixes
+
+* **deps:** update dependency derailed/k9s to v0.30.1 ([f46f88f](https://github.com/rolehippie/kubetools/commit/f46f88f7ae24a121b330e90fbd35f4febe073ff1))
+* **deps:** update dependency fluxcd/flux2 to v2.2.2 ([8625fe1](https://github.com/rolehippie/kubetools/commit/8625fe1a617734843cdc6d710bf3361e3e1a26da))
+
 ## [2.8.0](https://github.com/rolehippie/kubetools/compare/v2.7.0...v2.8.0) (2023-12-18)
 
 
