@@ -1,5 +1,16 @@
 # Changelog
 
+## [2.9.1](https://github.com/rolehippie/kubetools/compare/v2.9.0...v2.9.1) (2024-01-01)
+
+
+### Bugfixes
+
+* **deps:** update dependency derailed/k9s to v0.30.2 ([999d255](https://github.com/rolehippie/kubetools/commit/999d2557789adf9b5558a3b8dccd9eb843a2ebb2))
+* **deps:** update dependency derailed/k9s to v0.30.3 ([4560c5c](https://github.com/rolehippie/kubetools/commit/4560c5c51d0d29af3542849b11a2e8bcd04bacf9))
+* **deps:** update dependency derailed/k9s to v0.30.4 ([edcba17](https://github.com/rolehippie/kubetools/commit/edcba17e7d595a39187350c9ec31f78a655603c6))
+* **deps:** update dependency derailed/k9s to v0.30.5 ([e91b5b7](https://github.com/rolehippie/kubetools/commit/e91b5b7e4e701db4ad792e394210d41506bc7e65))
+* **deps:** update dependency derailed/k9s to v0.30.6 ([6c53001](https://github.com/rolehippie/kubetools/commit/6c5300186c7ac847b8e46b2e8216055f2c6b0ca7))
+
 ## [2.9.0](https://github.com/rolehippie/kubetools/compare/v2.8.0...v2.9.0) (2023-12-25)
 
 
