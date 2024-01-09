@@ -234,7 +234,7 @@ Version of k9s to install
 #### Default value
 
 ```YAML
-kubetools_k9s_version: 0.30.8
+kubetools_k9s_version: 0.31.1
 ```
 
 ### kubetools_kind_arch
@@ -361,7 +361,7 @@ Version of stern to install
 #### Default value
 
 ```YAML
-kubetools_stern_version: 1.27.0
+kubetools_stern_version: 1.28.0
 ```
 
 ## Discovered Tags
