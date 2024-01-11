@@ -57,7 +57,7 @@ kubetools_k9s_enabled: True
 
 # @var kubetools_k9s_version:description: Version of k9s to install
 # renovate: datasource=github-releases depName=derailed/k9s
-kubetools_k9s_version: 0.31.3
+kubetools_k9s_version: 0.31.4
 
 # @var kubetools_k9s_arch:description: Architecture for k9s
 kubetools_k9s_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
