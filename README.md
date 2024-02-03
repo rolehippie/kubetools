@@ -98,7 +98,7 @@ Version of argocd to install
 #### Default value
 
 ```YAML
-kubetools_argocd_version: 2.9.3
+kubetools_argocd_version: 2.9.6
 ```
 
 ### kubetools_clusterctl_arch
@@ -140,7 +140,7 @@ Version of clusterctl to install
 #### Default value
 
 ```YAML
-kubetools_clusterctl_version: 1.6.0
+kubetools_clusterctl_version: 1.6.1
 ```
 
 ### kubetools_flux_arch
@@ -234,7 +234,7 @@ Version of k9s to install
 #### Default value
 
 ```YAML
-kubetools_k9s_version: 0.31.5
+kubetools_k9s_version: 0.31.7
 ```
 
 ### kubetools_kind_arch
