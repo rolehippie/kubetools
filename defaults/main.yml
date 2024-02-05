@@ -1,4 +1,3 @@
-# Standards: 1.2
 ---
 # @var kubetools_argocd_enabled:description: Enable installation of argocd cli
 kubetools_argocd_enabled: True
