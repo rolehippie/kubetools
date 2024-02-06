@@ -2,7 +2,7 @@
 - name: Download argocd release
   when:
     - kubetools_argocd_enabled
-  get_url:
+  ansible.builtin.get_url:
     url: "{{ kubetools_argocd_download }}"
     dest: "{{ kubetools_install_path }}/argocd"
     owner: root
@@ -14,7 +14,7 @@
 - name: Download clusterctl release
   when:
     - kubetools_clusterctl_enabled
-  get_url:
+  ansible.builtin.get_url:
     url: "{{ kubetools_clusterctl_download }}"
     dest: "{{ kubetools_install_path }}/clusterctl"
     owner: root
@@ -26,7 +26,7 @@
 - name: Download kind release
   when:
     - kubetools_kind_enabled
-  get_url:
+  ansible.builtin.get_url:
     url: "{{ kubetools_kind_download }}"
     dest: "{{ kubetools_install_path }}/kind"
     owner: root
@@ -38,7 +38,7 @@
 - name: Download stern release
   when:
     - kubetools_stern_enabled
-  unarchive:
+  ansible.builtin.unarchive:
     src: "{{ kubetools_stern_download }}"
     dest: "{{ kubetools_install_path }}"
     include:
@@ -53,7 +53,7 @@
 - name: Download k9s release
   when:
     - kubetools_k9s_enabled
-  unarchive:
+  ansible.builtin.unarchive:
     src: "{{ kubetools_k9s_download }}"
     dest: "{{ kubetools_install_path }}"
     include:
@@ -68,7 +68,7 @@
 - name: Download sonobuoy release
   when:
     - kubetools_sonobuoy_enabled
-  unarchive:
+  ansible.builtin.unarchive:
     src: "{{ kubetools_sonobuoy_download }}"
     dest: "{{ kubetools_install_path }}"
     include:
@@ -83,7 +83,7 @@
 - name: Download flux release
   when:
     - kubetools_flux_enabled
-  unarchive:
+  ansible.builtin.unarchive:
     src: "{{ kubetools_flux_download }}"
     dest: "{{ kubetools_install_path }}"
     include:
