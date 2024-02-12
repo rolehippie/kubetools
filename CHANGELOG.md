@@ -1,5 +1,19 @@
 # Changelog
 
+## [3.0.0](https://github.com/rolehippie/kubetools/compare/v2.11.0...v3.0.0) (2024-02-12)
+
+
+### Features
+
+* **deps:** update dependency argoproj/argo-cd to v2.10.0 ([c1550d6](https://github.com/rolehippie/kubetools/commit/c1550d615895b02121fc0c5dcc9bea21278168e2))
+* used full qualified collection names ([1efd141](https://github.com/rolehippie/kubetools/commit/1efd141750c7ee4738289e5f6d177917a2136f25))
+
+
+### Bugfixes
+
+* **deps:** update dependency derailed/k9s to v0.31.8 ([e7245ab](https://github.com/rolehippie/kubetools/commit/e7245ab99da146c9397cae3e070854a7bc0aa4f2))
+* **deps:** update dependency fluxcd/flux2 to v2.2.3 ([ac5d01f](https://github.com/rolehippie/kubetools/commit/ac5d01ff3a5e6d9236a87a304705f9cae11d9316))
+
 ## [2.11.0](https://github.com/rolehippie/kubetools/compare/v2.10.1...v2.11.0) (2024-02-05)
 
 
