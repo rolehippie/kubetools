@@ -234,7 +234,7 @@ Version of k9s to install
 #### Default value
 
 ```YAML
-kubetools_k9s_version: 0.31.8
+kubetools_k9s_version: 0.32.3
 ```
 
 ### kubetools_kind_arch
@@ -276,7 +276,7 @@ Version of kind to install
 #### Default value
 
 ```YAML
-kubetools_kind_version: 0.21.0
+kubetools_kind_version: 0.22.0
 ```
 
 ### kubetools_sonobuoy_arch
