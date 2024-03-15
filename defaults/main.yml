@@ -30,7 +30,7 @@ kubetools_kind_enabled: True
 
 # @var kubetools_kind_version:description: Version of kind to install
 # renovate: datasource=github-releases depName=kubernetes-sigs/kind
-kubetools_kind_version: 0.21.0
+kubetools_kind_version: 0.22.0
 
 # @var kubetools_kind_arch:description: Architecture for kind
 kubetools_kind_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
@@ -56,7 +56,7 @@ kubetools_k9s_enabled: True
 
 # @var kubetools_k9s_version:description: Version of k9s to install
 # renovate: datasource=github-releases depName=derailed/k9s
-kubetools_k9s_version: 0.31.8
+kubetools_k9s_version: 0.32.3
 
 # @var kubetools_k9s_arch:description: Architecture for k9s
 kubetools_k9s_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
