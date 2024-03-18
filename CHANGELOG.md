@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.1.0](https://github.com/rolehippie/kubetools/compare/v3.0.1...v3.1.0) (2024-03-18)
+
+
+### Features
+
+* **deps:** update minor versions ([ee7d8e6](https://github.com/rolehippie/kubetools/commit/ee7d8e60f3da73d456c321628abd0826d51c3ca2))
+
+
+### Bugfixes
+
+* **deps:** update patch versions ([ea29a41](https://github.com/rolehippie/kubetools/commit/ea29a41bef8a8523e7905685e399339b2bd07062))
+
 ## [3.0.1](https://github.com/rolehippie/kubetools/compare/v3.0.0...v3.0.1) (2024-02-19)
 
 
