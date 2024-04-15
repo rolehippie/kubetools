@@ -4,7 +4,7 @@ kubetools_argocd_enabled: True
 
 # @var kubetools_argocd_version:description: Version of argocd to install
 # renovate: datasource=github-releases depName=argoproj/argo-cd
-kubetools_argocd_version: 2.10.6
+kubetools_argocd_version: 2.10.7
 
 # @var kubetools_argocd_arch:description: Architecture for argocd
 kubetools_argocd_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
