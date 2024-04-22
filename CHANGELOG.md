@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.2.0](https://github.com/rolehippie/kubetools/compare/v3.1.3...v3.2.0) (2024-04-22)
+
+
+### Features
+
+* **deps:** update dependency kubernetes-sigs/cluster-api to v1.7.0 ([2ac9b90](https://github.com/rolehippie/kubetools/commit/2ac9b90b0228932f233bada9671089aa1e34ad3b))
+
+
+### Bugfixes
+
+* **deps:** update dependency argoproj/argo-cd to v2.10.7 ([646a7e0](https://github.com/rolehippie/kubetools/commit/646a7e0237fd9c46227a3c8aa88b043f04a3c084))
+
 ## [3.1.3](https://github.com/rolehippie/kubetools/compare/v3.1.2...v3.1.3) (2024-04-08)
 
 
