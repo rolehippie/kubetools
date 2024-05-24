@@ -361,7 +361,7 @@ Version of stern to install
 #### Default value
 
 ```YAML
-kubetools_stern_version: 1.29.0
+kubetools_stern_version: 1.30.0
 ```
 
 ## Discovered Tags
