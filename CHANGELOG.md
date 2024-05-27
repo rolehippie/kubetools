@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.5.0](https://github.com/rolehippie/kubetools/compare/v3.4.0...v3.5.0) (2024-05-27)
+
+
+### Features
+
+* **deps:** update dependency stern/stern to v1.30.0 ([e5a6a65](https://github.com/rolehippie/kubetools/commit/e5a6a65e1758253a61cd1c42f939f8c0471aeab0))
+
+
+### Bugfixes
+
+* **deps:** update dependency argoproj/argo-cd to v2.11.1 ([6f6fc74](https://github.com/rolehippie/kubetools/commit/6f6fc745ca520167b061a0596a8c5a5a10e25576))
+* **deps:** update dependency argoproj/argo-cd to v2.11.2 ([91b11b9](https://github.com/rolehippie/kubetools/commit/91b11b97e39522f7e4003c0d6c218cbd6bb2633d))
+
 ## [3.4.0](https://github.com/rolehippie/kubetools/compare/v3.3.0...v3.4.0) (2024-05-20)
 
 
