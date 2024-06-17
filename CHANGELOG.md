@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.5.2](https://github.com/rolehippie/kubetools/compare/v3.5.1...v3.5.2) (2024-06-17)
+
+
+### Bugfixes
+
+* **deps:** update dependency derailed/k9s to v0.32.5 ([64cbf93](https://github.com/rolehippie/kubetools/commit/64cbf93a411466eef3196d5c6324e10823c7f2a8))
+* **deps:** update dependency kubernetes-sigs/cluster-api to v1.7.3 ([9d228cb](https://github.com/rolehippie/kubetools/commit/9d228cb5cc557f48ececaba0b850b27fe34f6605))
+
 ## [3.5.1](https://github.com/rolehippie/kubetools/compare/v3.5.0...v3.5.1) (2024-06-10)
 
 
