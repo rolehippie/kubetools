@@ -319,7 +319,7 @@ Version of sonobuoy to install
 #### Default value
 
 ```YAML
-kubetools_sonobuoy_version: 0.57.1
+kubetools_sonobuoy_version: 0.57.2
 ```
 
 ### kubetools_stern_arch
