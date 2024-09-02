@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.7.2](https://github.com/rolehippie/kubetools/compare/v3.7.1...v3.7.2) (2024-09-02)
+
+
+### Bugfixes
+
+* **deps:** update dependency argoproj/argo-cd to v2.12.3 ([6a03a1f](https://github.com/rolehippie/kubetools/commit/6a03a1f6b18344e3545faaca93d70e5576dc2e05))
+* **deps:** update dependency vmware-tanzu/sonobuoy to v0.57.2 ([9aea80f](https://github.com/rolehippie/kubetools/commit/9aea80f5cfb97073b1e3bfe5fa87e4e40553b883))
+
 ## [3.7.1](https://github.com/rolehippie/kubetools/compare/v3.7.0...v3.7.1) (2024-08-26)
 
 
