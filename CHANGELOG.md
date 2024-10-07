@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.8.0](https://github.com/rolehippie/kubetools/compare/v3.7.5...v3.8.0) (2024-10-07)
+
+
+### Features
+
+* **deps:** update dependency fluxcd/flux2 to v2.4.0 ([1b52f5d](https://github.com/rolehippie/kubetools/commit/1b52f5dfb9606ccd1fc5355463cd923307f809b2))
+
 ## [3.7.5](https://github.com/rolehippie/kubetools/compare/v3.7.4...v3.7.5) (2024-09-30)
 
 
