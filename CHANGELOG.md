@@ -1,5 +1,17 @@
 # Changelog
 
+## [3.9.0](https://github.com/rolehippie/kubetools/compare/v3.8.0...v3.9.0) (2024-10-14)
+
+
+### Features
+
+* **deps:** update dependency stern/stern to v1.31.0 ([13b66cc](https://github.com/rolehippie/kubetools/commit/13b66ccb5346a4868fa26a1e0633a1ffc0778e61))
+
+
+### Bugfixes
+
+* **deps:** update dependency kubernetes-sigs/cluster-api to v1.8.4 ([2442cae](https://github.com/rolehippie/kubetools/commit/2442cae0f2c29ef9a3b7a39e19e3d9103a9f5116))
+
 ## [3.8.0](https://github.com/rolehippie/kubetools/compare/v3.7.5...v3.8.0) (2024-10-07)
 
 
