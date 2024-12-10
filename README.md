@@ -140,7 +140,7 @@ Version of clusterctl to install
 #### Default value
 
 ```YAML
-kubetools_clusterctl_version: 1.8.5
+kubetools_clusterctl_version: 1.9.0
 ```
 
 ### kubetools_flux_arch
