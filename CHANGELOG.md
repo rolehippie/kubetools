@@ -1,5 +1,18 @@
 # Changelog
 
+## [3.12.0](https://github.com/rolehippie/kubetools/compare/v3.11.0...v3.12.0) (2024-12-23)
+
+
+### Features
+
+* **deps:** update dependency kubernetes-sigs/kind to v0.26.0 ([#139](https://github.com/rolehippie/kubetools/issues/139)) ([3642781](https://github.com/rolehippie/kubetools/commit/36427813c2432a4431044c1c101961f5371b9738))
+
+
+### Bugfixes
+
+* **deps:** update dependency kubernetes-sigs/cluster-api to v1.9.1 ([#140](https://github.com/rolehippie/kubetools/issues/140)) ([3594ef4](https://github.com/rolehippie/kubetools/commit/3594ef44da9717cfc760eb1baf279a7dd3bf4dec))
+* **deps:** update dependency kubernetes-sigs/cluster-api to v1.9.2 ([#141](https://github.com/rolehippie/kubetools/issues/141)) ([0797e10](https://github.com/rolehippie/kubetools/commit/0797e1054aa81a0028351b19cb1ed3f87b55f90a))
+
 ## [3.11.0](https://github.com/rolehippie/kubetools/compare/v3.10.2...v3.11.0) (2024-12-16)
 
 
