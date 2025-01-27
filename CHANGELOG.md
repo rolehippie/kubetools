@@ -1,5 +1,12 @@
 # Changelog
 
+## [3.13.0](https://github.com/rolehippie/kubetools/compare/v3.12.2...v3.13.0) (2025-01-27)
+
+
+### Features
+
+* **deps:** update dependency stern/stern to v1.32.0 ([#144](https://github.com/rolehippie/kubetools/issues/144)) ([6fdcbd1](https://github.com/rolehippie/kubetools/commit/6fdcbd15a8132f87dc0912e377dd2f4a11c0693f))
+
 ## [3.12.2](https://github.com/rolehippie/kubetools/compare/v3.12.1...v3.12.2) (2025-01-13)
 
 
