@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.15.0](https://github.com/rolehippie/kubetools/compare/v3.14.0...v3.15.0) (2025-02-17)
+
+
+### Features
+
+* **deps:** update dependency derailed/k9s to v0.40.0 ([#151](https://github.com/rolehippie/kubetools/issues/151)) ([c7f6111](https://github.com/rolehippie/kubetools/commit/c7f61118096cddd5663e2a3cb3544fb37e6ccad6))
+* **deps:** update dependency kubernetes-sigs/kind to v0.27.0 ([#150](https://github.com/rolehippie/kubetools/issues/150)) ([2882a3c](https://github.com/rolehippie/kubetools/commit/2882a3cb02bc5d49fedf72ed71a300fa498d4c52))
+
+
+### Bugfixes
+
+* **deps:** update dependency derailed/k9s to v0.40.1 ([#152](https://github.com/rolehippie/kubetools/issues/152)) ([4152ad1](https://github.com/rolehippie/kubetools/commit/4152ad1c31e09a087e8e81443cba007b88cb0330))
+* **deps:** update dependency derailed/k9s to v0.40.2 ([#153](https://github.com/rolehippie/kubetools/issues/153)) ([ba3a46c](https://github.com/rolehippie/kubetools/commit/ba3a46cdf3c1faf95c75b11772251f7c86628e5f))
+* **deps:** update dependency derailed/k9s to v0.40.3 ([#154](https://github.com/rolehippie/kubetools/issues/154)) ([4cd1df6](https://github.com/rolehippie/kubetools/commit/4cd1df62f0b34f94af31064486280b19aa12c5f9))
+
 ## [3.14.0](https://github.com/rolehippie/kubetools/compare/v3.13.1...v3.14.0) (2025-02-10)
 
 
