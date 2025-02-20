@@ -82,7 +82,7 @@ kubetools_flux_enabled: True
 
 # @var kubetools_flux_version:description: Version of flux to install
 # renovate: datasource=github-releases depName=fluxcd/flux2
-kubetools_flux_version: 2.4.0
+kubetools_flux_version: 2.5.0
 
 # @var kubetools_flux_arch:description: Architecture for flux
 kubetools_flux_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' else 'amd64' }}"
