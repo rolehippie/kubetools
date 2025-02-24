@@ -1,5 +1,20 @@
 # Changelog
 
+## [3.16.0](https://github.com/rolehippie/kubetools/compare/v3.15.0...v3.16.0) (2025-02-24)
+
+
+### Features
+
+* **deps:** update dependency fluxcd/flux2 to v2.5.0 ([#159](https://github.com/rolehippie/kubetools/issues/159)) ([1530556](https://github.com/rolehippie/kubetools/commit/15305568e7d44c0ce9c84b1931c3b0e8d01787aa))
+
+
+### Bugfixes
+
+* **deps:** update dependency derailed/k9s to v0.40.4 ([#155](https://github.com/rolehippie/kubetools/issues/155)) ([7836a7a](https://github.com/rolehippie/kubetools/commit/7836a7a2e632729352fbec9356b34cb73cd79827))
+* **deps:** update dependency derailed/k9s to v0.40.5 ([#156](https://github.com/rolehippie/kubetools/issues/156)) ([b5372ba](https://github.com/rolehippie/kubetools/commit/b5372ba283bc731d93bc405ce82c3b164d6fdb78))
+* **deps:** update dependency kubernetes-sigs/cluster-api to v1.9.5 ([#157](https://github.com/rolehippie/kubetools/issues/157)) ([6c984a4](https://github.com/rolehippie/kubetools/commit/6c984a47ca0b4fce8253d1f1c3a265f65c9a545f))
+* **deps:** update dependency vmware-tanzu/sonobuoy to v0.57.3 ([#158](https://github.com/rolehippie/kubetools/issues/158)) ([2c396f5](https://github.com/rolehippie/kubetools/commit/2c396f5d1844c792b9af54b0c0c41a719c55bbd1))
+
 ## [3.15.0](https://github.com/rolehippie/kubetools/compare/v3.14.0...v3.15.0) (2025-02-17)
 
 
