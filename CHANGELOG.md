@@ -1,5 +1,13 @@
 # Changelog
 
+## [3.16.1](https://github.com/rolehippie/kubetools/compare/v3.16.0...v3.16.1) (2025-03-03)
+
+
+### Bugfixes
+
+* **deps:** update dependency argoproj/argo-cd to v2.14.3 ([#161](https://github.com/rolehippie/kubetools/issues/161)) ([534e96d](https://github.com/rolehippie/kubetools/commit/534e96d7422240a4dded308acaacf75aaec71df4))
+* **deps:** update dependency fluxcd/flux2 to v2.5.1 ([#160](https://github.com/rolehippie/kubetools/issues/160)) ([44b4d00](https://github.com/rolehippie/kubetools/commit/44b4d0006f729bb5aa1a131466c7abd85adc6dbc))
+
 ## [3.16.0](https://github.com/rolehippie/kubetools/compare/v3.15.0...v3.16.0) (2025-02-24)
 
 
