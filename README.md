@@ -234,7 +234,7 @@ Version of k9s to install
 #### Default value
 
 ```YAML
-kubetools_k9s_version: 0.50.0
+kubetools_k9s_version: 0.50.1
 ```
 
 ### kubetools_kind_arch
