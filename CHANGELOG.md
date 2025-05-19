@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.1.0](https://github.com/rolehippie/kubetools/compare/v4.0.0...v4.1.0) (2025-05-19)
+
+
+### Features
+
+* **deps:** update dependency kubernetes-sigs/kind to v0.28.0 ([#188](https://github.com/rolehippie/kubetools/issues/188)) ([2fb0c52](https://github.com/rolehippie/kubetools/commit/2fb0c524364b5073bc3d44bc0f99044bcad42b2d))
+
+
+### Bugfixes
+
+* **deps:** update dependency argoproj/argo-cd to v3.0.1 ([#187](https://github.com/rolehippie/kubetools/issues/187)) ([e1879bc](https://github.com/rolehippie/kubetools/commit/e1879bca550100c575ceda342251a4f5a4e421ef))
+
 ## [4.0.0](https://github.com/rolehippie/kubetools/compare/v3.18.1...v4.0.0) (2025-05-12)
 
 
