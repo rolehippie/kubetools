@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.3.3](https://github.com/rolehippie/kubetools/compare/v4.3.2...v4.3.3) (2025-06-23)
+
+
+### Bugfixes
+
+* **deps:** update dependency fluxcd/flux2 to v2.6.2 ([#198](https://github.com/rolehippie/kubetools/issues/198)) ([ffce241](https://github.com/rolehippie/kubetools/commit/ffce241de7b00c8bdbcec26296d632e353d9f80a))
+* **deps:** update dependency kubernetes-sigs/cluster-api to v1.10.3 ([#199](https://github.com/rolehippie/kubetools/issues/199)) ([337eb12](https://github.com/rolehippie/kubetools/commit/337eb121b96c7c15b1f9f65f3b0b2a7d26229eab))
+
 ## [4.3.2](https://github.com/rolehippie/kubetools/compare/v4.3.1...v4.3.2) (2025-06-16)
 
 
