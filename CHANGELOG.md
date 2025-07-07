@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.3.5](https://github.com/rolehippie/kubetools/compare/v4.3.4...v4.3.5) (2025-07-07)
+
+
+### Bugfixes
+
+* **deps:** update dependency derailed/k9s to v0.50.7 ([#201](https://github.com/rolehippie/kubetools/issues/201)) ([76f94a8](https://github.com/rolehippie/kubetools/commit/76f94a891fffaf5b0fddc90d166c07b7b6ba6248))
+
 ## [4.3.4](https://github.com/rolehippie/kubetools/compare/v4.3.3...v4.3.4) (2025-06-30)
 
 
