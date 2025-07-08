@@ -1,4 +1,4 @@
-# kubetools
+# workspace
 
 [![Source Code](https://img.shields.io/badge/github-source%20code-blue?logo=github&logoColor=white)](https://github.com/rolehippie/kubetools)
 [![General Workflow](https://github.com/rolehippie/kubetools/actions/workflows/general.yml/badge.svg)](https://github.com/rolehippie/kubetools/actions/workflows/general.yml)
@@ -77,7 +77,8 @@ URL to download argocd from
 #### Default value
 
 ```YAML
-kubetools_argocd_download: https://github.com/argoproj/argo-cd/releases/download/v{{
+kubetools_argocd_download: 
+  https://github.com/argoproj/argo-cd/releases/download/v{{ 
   kubetools_argocd_version }}/argocd-linux-{{ kubetools_argocd_arch }}
 ```
 
@@ -119,8 +120,10 @@ URL to download clusterctl from
 #### Default value
 
 ```YAML
-kubetools_clusterctl_download: https://github.com/kubernetes-sigs/cluster-api/releases/download/v{{
-  kubetools_clusterctl_version }}/clusterctl-linux-{{ kubetools_clusterctl_arch }}
+kubetools_clusterctl_download: 
+  https://github.com/kubernetes-sigs/cluster-api/releases/download/v{{ 
+  kubetools_clusterctl_version }}/clusterctl-linux-{{ kubetools_clusterctl_arch 
+  }}
 ```
 
 ### kubetools_clusterctl_enabled
@@ -161,8 +164,9 @@ URL to download flux from
 #### Default value
 
 ```YAML
-kubetools_flux_download: https://github.com/fluxcd/flux2/releases/download/v{{ kubetools_flux_version
-  }}/flux_{{ kubetools_flux_version }}_linux_{{ kubetools_flux_arch }}.tar.gz
+kubetools_flux_download: https://github.com/fluxcd/flux2/releases/download/v{{ 
+  kubetools_flux_version }}/flux_{{ kubetools_flux_version }}_linux_{{ 
+  kubetools_flux_arch }}.tar.gz
 ```
 
 ### kubetools_flux_enabled
@@ -182,7 +186,7 @@ Version of flux to install
 #### Default value
 
 ```YAML
-kubetools_flux_version: 2.6.3
+kubetools_flux_version: 2.6.4
 ```
 
 ### kubetools_install_path
@@ -213,8 +217,8 @@ URL to download k9s from
 #### Default value
 
 ```YAML
-kubetools_k9s_download: https://github.com/derailed/k9s/releases/download/v{{ kubetools_k9s_version
-  }}/k9s_Linux_{{ kubetools_k9s_arch }}.tar.gz
+kubetools_k9s_download: https://github.com/derailed/k9s/releases/download/v{{ 
+  kubetools_k9s_version }}/k9s_Linux_{{ kubetools_k9s_arch }}.tar.gz
 ```
 
 ### kubetools_k9s_enabled
@@ -255,7 +259,8 @@ URL to download kind from
 #### Default value
 
 ```YAML
-kubetools_kind_download: https://github.com/kubernetes-sigs/kind/releases/download/v{{
+kubetools_kind_download: 
+  https://github.com/kubernetes-sigs/kind/releases/download/v{{ 
   kubetools_kind_version }}/kind-linux-{{ kubetools_kind_arch }}
 ```
 
@@ -297,9 +302,10 @@ URL to download sonobuoy from
 #### Default value
 
 ```YAML
-kubetools_sonobuoy_download: https://github.com/vmware-tanzu/sonobuoy/releases/download/v{{
-  kubetools_sonobuoy_version }}/sonobuoy_{{ kubetools_sonobuoy_version }}_linux_{{
-  kubetools_sonobuoy_arch }}.tar.gz
+kubetools_sonobuoy_download: 
+  https://github.com/vmware-tanzu/sonobuoy/releases/download/v{{ 
+  kubetools_sonobuoy_version }}/sonobuoy_{{ kubetools_sonobuoy_version 
+  }}_linux_{{ kubetools_sonobuoy_arch }}.tar.gz
 ```
 
 ### kubetools_sonobuoy_enabled
@@ -340,8 +346,9 @@ URL to download stern from
 #### Default value
 
 ```YAML
-kubetools_stern_download: https://github.com/stern/stern/releases/download/v{{ kubetools_stern_version
-  }}/stern_{{ kubetools_stern_version }}_linux_{{ kubetools_stern_arch }}.tar.gz
+kubetools_stern_download: https://github.com/stern/stern/releases/download/v{{ 
+  kubetools_stern_version }}/stern_{{ kubetools_stern_version }}_linux_{{ 
+  kubetools_stern_arch }}.tar.gz
 ```
 
 ### kubetools_stern_enabled
@@ -367,7 +374,6 @@ kubetools_stern_version: 1.32.0
 ## Discovered Tags
 
 **_kubetools_**
-
 
 ## Dependencies
 
