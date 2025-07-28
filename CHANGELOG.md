@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.3.8](https://github.com/rolehippie/kubetools/compare/v4.3.7...v4.3.8) (2025-07-28)
+
+
+### Bugfixes
+
+* **deps:** update dependency argoproj/argo-cd to v3.0.12 ([#207](https://github.com/rolehippie/kubetools/issues/207)) ([72e772a](https://github.com/rolehippie/kubetools/commit/72e772a21119a9394ff1f524cd3877e543148d73))
+
 ## [4.3.7](https://github.com/rolehippie/kubetools/compare/v4.3.6...v4.3.7) (2025-07-21)
 
 
