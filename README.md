@@ -143,7 +143,7 @@ Version of clusterctl to install
 #### Default value
 
 ```YAML
-kubetools_clusterctl_version: 1.10.4
+kubetools_clusterctl_version: 1.11.1
 ```
 
 ### kubetools_flux_arch
@@ -281,7 +281,7 @@ Version of kind to install
 #### Default value
 
 ```YAML
-kubetools_kind_version: 0.29.0
+kubetools_kind_version: 0.30.0
 ```
 
 ### kubetools_sonobuoy_arch
