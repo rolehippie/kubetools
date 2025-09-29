@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.5.3](https://github.com/rolehippie/kubetools/compare/v4.5.2...v4.5.3) (2025-09-29)
+
+
+### Bugfixes
+
+* **deps:** update dependency argoproj/argo-cd to v3.1.7 ([#220](https://github.com/rolehippie/kubetools/issues/220)) ([4834981](https://github.com/rolehippie/kubetools/commit/483498193cde6697c05792e286cb09bce2b5ccce))
+* **deps:** update dependency derailed/k9s to v0.50.13 ([#221](https://github.com/rolehippie/kubetools/issues/221)) ([60e96b9](https://github.com/rolehippie/kubetools/commit/60e96b91627867827631d17d320ab45dc4c22045))
+
 ## [4.5.2](https://github.com/rolehippie/kubetools/compare/v4.5.1...v4.5.2) (2025-09-22)
 
 
