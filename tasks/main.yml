@@ -43,7 +43,7 @@
     dest: "{{ kubetools_install_path }}"
     include:
       - stern
-    remote_src: True
+    remote_src: true
     owner: root
     group: root
     mode: u=rwx,g=rx,o=rx
@@ -58,7 +58,7 @@
     dest: "{{ kubetools_install_path }}"
     include:
       - k9s
-    remote_src: True
+    remote_src: true
     owner: root
     group: root
     mode: u=rwx,g=rx,o=rx
@@ -73,7 +73,7 @@
     dest: "{{ kubetools_install_path }}"
     include:
       - sonobuoy
-    remote_src: True
+    remote_src: true
     owner: root
     group: root
     mode: u=rwx,g=rx,o=rx
@@ -88,7 +88,7 @@
     dest: "{{ kubetools_install_path }}"
     include:
       - flux
-    remote_src: True
+    remote_src: true
     owner: root
     group: root
     mode: u=rwx,g=rx,o=rx
