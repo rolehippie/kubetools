@@ -1,5 +1,18 @@
 # Changelog
 
+## [4.6.0](https://github.com/rolehippie/kubetools/compare/v4.5.3...v4.6.0) (2025-10-01)
+
+
+### Features
+
+* apply new repo structure and update linting and integrate noble ([7d7f870](https://github.com/rolehippie/kubetools/commit/7d7f87027451cffda51e13d05eda6cc60b579757))
+* **minor:** update dependency fluxcd/flux2 to v2.7.0 ([#223](https://github.com/rolehippie/kubetools/issues/223)) ([5eb339d](https://github.com/rolehippie/kubetools/commit/5eb339d4c4bc783f0cf91b369b896c48a4ccbdac))
+
+
+### Bugfixes
+
+* **patch:** update dependency argoproj/argo-cd to v3.1.8 ([#224](https://github.com/rolehippie/kubetools/issues/224)) ([b81885b](https://github.com/rolehippie/kubetools/commit/b81885b34fbd75d10712bce5678265c4365d1110))
+
 ## [4.5.3](https://github.com/rolehippie/kubetools/compare/v4.5.2...v4.5.3) (2025-09-29)
 
 
