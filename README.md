@@ -143,7 +143,7 @@ Version of clusterctl to install
 #### Default value
 
 ```YAML
-kubetools_clusterctl_version: 1.11.1
+kubetools_clusterctl_version: 1.11.2
 ```
 
 ### kubetools_flux_arch
@@ -238,7 +238,7 @@ Version of k9s to install
 #### Default value
 
 ```YAML
-kubetools_k9s_version: 0.50.14
+kubetools_k9s_version: 0.50.15
 ```
 
 ### kubetools_kind_arch
