@@ -1,5 +1,15 @@
 # Changelog
 
+## [4.6.1](https://github.com/rolehippie/kubetools/compare/v4.6.0...v4.6.1) (2025-10-13)
+
+
+### Bugfixes
+
+* **patch:** update dependency derailed/k9s to v0.50.14 ([#227](https://github.com/rolehippie/kubetools/issues/227)) ([d573f87](https://github.com/rolehippie/kubetools/commit/d573f879abbbecd6b638afede59ad09367d32072))
+* **patch:** update dependency fluxcd/flux2 to v2.7.1 ([#226](https://github.com/rolehippie/kubetools/issues/226)) ([35144e2](https://github.com/rolehippie/kubetools/commit/35144e272974d1025e80c9abc21c0984cbfdb876))
+* **patch:** update dependency fluxcd/flux2 to v2.7.2 ([#229](https://github.com/rolehippie/kubetools/issues/229)) ([9448901](https://github.com/rolehippie/kubetools/commit/9448901681c2c8fc80dab0e181e6246c14b15fce))
+* **patch:** update version prefix ([#228](https://github.com/rolehippie/kubetools/issues/228)) ([734374d](https://github.com/rolehippie/kubetools/commit/734374ddc2ebc9666689d6f8163bae7a165f3308))
+
 ## [4.6.0](https://github.com/rolehippie/kubetools/compare/v4.5.3...v4.6.0) (2025-10-01)
 
 
