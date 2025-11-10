@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.7.0](https://github.com/rolehippie/kubetools/compare/v4.6.3...v4.7.0) (2025-11-10)
+
+
+### Features
+
+* **minor:** update version prefix ([#236](https://github.com/rolehippie/kubetools/issues/236)) ([0d38b8f](https://github.com/rolehippie/kubetools/commit/0d38b8fc462aeee84d50a3b51bd0fae67b92e02d))
+
 ## [4.6.3](https://github.com/rolehippie/kubetools/compare/v4.6.2...v4.6.3) (2025-11-03)
 
 
