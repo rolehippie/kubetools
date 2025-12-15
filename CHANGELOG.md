@@ -1,5 +1,12 @@
 # Changelog
 
+## [4.8.0](https://github.com/rolehippie/kubetools/compare/v4.7.1...v4.8.0) (2025-12-15)
+
+
+### Features
+
+* **minor:** update dependency kubernetes-sigs/cluster-api to v1.12.0 ([#250](https://github.com/rolehippie/kubetools/issues/250)) ([9c547f4](https://github.com/rolehippie/kubetools/commit/9c547f42dd392431bf2d881851ee358752a431df))
+
 ## [4.7.1](https://github.com/rolehippie/kubetools/compare/v4.7.0...v4.7.1) (2025-12-01)
 
 
