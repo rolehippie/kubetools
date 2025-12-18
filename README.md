@@ -281,7 +281,7 @@ Version of kind to install
 #### Default value
 
 ```YAML
-kubetools_kind_version: 0.30.0
+kubetools_kind_version: 0.31.0
 ```
 
 ### kubetools_sonobuoy_arch
