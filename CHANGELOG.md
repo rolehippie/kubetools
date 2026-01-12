@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.9.2](https://github.com/rolehippie/kubetools/compare/v4.9.1...v4.9.2) (2026-01-12)
+
+### Dependencies
+
+* **patch:** update dependency derailed/k9s to v0.50.18 ([#258](https://github.com/rolehippie/kubetools/issues/258)) ([4708c94](https://github.com/rolehippie/kubetools/commit/4708c94c3da66a232660a28ca7122b795796d663))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([6b87781](https://github.com/rolehippie/kubetools/commit/6b8778146f1b35284285e9b66eca0c63f0e5fe5f))
+* **flake:** updated lockfile [skip ci] ([c90b148](https://github.com/rolehippie/kubetools/commit/c90b148b007baf6334563bff2dc4b54189927b2a))
+
 ## [4.9.1](https://github.com/rolehippie/kubetools/compare/v4.9.0...v4.9.1) (2025-12-29)
 
 
