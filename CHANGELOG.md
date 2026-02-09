@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.10.0](https://github.com/rolehippie/kubetools/compare/v4.9.4...v4.10.0) (2026-02-09)
+
+### Dependencies
+
+* **minor:** update dependency argoproj/argo-cd to v3.3.0 ([#266](https://github.com/rolehippie/kubetools/issues/266)) ([7754726](https://github.com/rolehippie/kubetools/commit/7754726f0a1c18c5c40951d10b5c2072374bb0ec))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([3455e53](https://github.com/rolehippie/kubetools/commit/3455e536d3109c39235f2eeb284b61f61fd0b9b4))
+* **flake:** updated lockfile [skip ci] ([9146ff5](https://github.com/rolehippie/kubetools/commit/9146ff53cfb5c81e62265032de6e8a392d964081))
+
 ## [4.9.4](https://github.com/rolehippie/kubetools/compare/v4.9.3...v4.9.4) (2026-01-26)
 
 ### Dependencies
