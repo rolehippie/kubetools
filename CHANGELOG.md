@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.11.0](https://github.com/rolehippie/kubetools/compare/v4.10.1...v4.11.0) (2026-03-02)
+
+### Dependencies
+
+* **minor:** update dependency fluxcd/flux2 to v2.8.0 ([#270](https://github.com/rolehippie/kubetools/issues/270)) ([7a05d7b](https://github.com/rolehippie/kubetools/commit/7a05d7b2fb8d949bb1b9d254b82a7e2415549f82))
+* **patch:** update dependency fluxcd/flux2 to v2.8.1 ([#271](https://github.com/rolehippie/kubetools/issues/271)) ([f514e8a](https://github.com/rolehippie/kubetools/commit/f514e8a9c29f64df5703b804f6393eaee4b09732))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([9c72828](https://github.com/rolehippie/kubetools/commit/9c7282813fb99121a3074f6cc6a451c39d12a899))
+
 ## [4.10.1](https://github.com/rolehippie/kubetools/compare/v4.10.0...v4.10.1) (2026-02-23)
 
 ### Dependencies
