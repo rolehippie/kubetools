@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.11.2](https://github.com/rolehippie/kubetools/compare/v4.11.1...v4.11.2) (2026-03-23)
+
+### Dependencies
+
+* **patch:** update dependency kubernetes-sigs/cluster-api to v1.12.4 ([#276](https://github.com/rolehippie/kubetools/issues/276)) ([1852b96](https://github.com/rolehippie/kubetools/commit/1852b96c1e54596846277f1d3e3908c3c3924fcd))
+* **patch:** update version prefix ([#275](https://github.com/rolehippie/kubetools/issues/275)) ([cdfadd3](https://github.com/rolehippie/kubetools/commit/cdfadd3b6806ca6d083ad5043fde15a6e8387675))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([20f96f2](https://github.com/rolehippie/kubetools/commit/20f96f2c092cc157b36d0e0bb8cae3875d9d9486))
+
 ## [4.11.1](https://github.com/rolehippie/kubetools/compare/v4.11.0...v4.11.1) (2026-03-16)
 
 ### Dependencies
