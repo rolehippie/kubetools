@@ -4,7 +4,7 @@ kubetools_argocd_enabled: true
 
 # @var kubetools_argocd_version:description: Version of argocd to install
 # renovate: datasource=github-releases depName=argoproj/argo-cd
-kubetools_argocd_version: 3.3.7
+kubetools_argocd_version: 3.3.8
 
 # @var kubetools_argocd_arch:description: Architecture for argocd
 kubetools_argocd_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
@@ -17,7 +17,7 @@ kubetools_clusterctl_enabled: true
 
 # @var kubetools_clusterctl_version:description: Version of clusterctl to install
 # renovate: datasource=github-releases depName=kubernetes-sigs/cluster-api
-kubetools_clusterctl_version: 1.12.5
+kubetools_clusterctl_version: 1.13.0
 
 # @var kubetools_clusterctl_arch:description: Architecture for clusterctl
 kubetools_clusterctl_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
