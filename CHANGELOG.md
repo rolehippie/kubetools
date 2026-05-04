@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.12.0](https://github.com/rolehippie/kubetools/compare/v4.11.6...v4.12.0) (2026-05-04)
+
+### Dependencies
+
+* **minor:** update dependency stern/stern to v1.34.0 ([#289](https://github.com/rolehippie/kubetools/issues/289)) ([72ba985](https://github.com/rolehippie/kubetools/commit/72ba98551a8ceb06b0123501c5997cd540aac438))
+* **patch:** update dependency argoproj/argo-cd to v3.3.9 ([#288](https://github.com/rolehippie/kubetools/issues/288)) ([f2c9a6d](https://github.com/rolehippie/kubetools/commit/f2c9a6d0e34fbbc2e56e031517e147401339d0fc))
+* **patch:** update dependency kubernetes-sigs/cluster-api to v1.13.1 ([#287](https://github.com/rolehippie/kubetools/issues/287)) ([33222a0](https://github.com/rolehippie/kubetools/commit/33222a042fd24beccae94fea7850f5d916aa3560))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([e7ec0fe](https://github.com/rolehippie/kubetools/commit/e7ec0fe3bcfd854c25395f4fc3a4b3b175a3e484))
+
 ## [4.11.6](https://github.com/rolehippie/kubetools/compare/v4.11.5...v4.11.6) (2026-04-27)
 
 ### Dependencies
