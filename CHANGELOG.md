@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.14.0](https://github.com/rolehippie/kubetools/compare/v4.13.3...v4.14.0) (2026-06-08)
+
+### Dependencies
+
+* **minor:** update version prefix to v0.32.0 ([#296](https://github.com/rolehippie/kubetools/issues/296)) ([1508dc3](https://github.com/rolehippie/kubetools/commit/1508dc31c49084dfb5dd4bb88e8de61c7ba2c073))
+* **minor:** update version prefix to v0.51.0 ([#297](https://github.com/rolehippie/kubetools/issues/297)) ([783a99a](https://github.com/rolehippie/kubetools/commit/783a99a87b10f5731f328a0c0da31d630441308c))
+
+### Miscellaneous
+
+* **flake:** updated lockfile [skip ci] ([f6fa9f9](https://github.com/rolehippie/kubetools/commit/f6fa9f9667be412072802a7aa4c183d65040656c))
+
 ## [4.13.3](https://github.com/rolehippie/kubetools/compare/v4.13.2...v4.13.3) (2026-06-01)
 
 ### Dependencies
