@@ -176,7 +176,7 @@ Version of flux to install
 #### Default value
 
 ```YAML
-kubetools_flux_version: 2.8.8
+kubetools_flux_version: 2.9.0
 ```
 
 ### kubetools_install_path
