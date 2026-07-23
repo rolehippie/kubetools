@@ -136,7 +136,7 @@ Version of clusterctl to install
 #### Default value
 
 ```YAML
-kubetools_clusterctl_version: 1.13.3
+kubetools_clusterctl_version: 1.13.4
 ```
 
 ### kubetools_flux_arch
@@ -176,7 +176,7 @@ Version of flux to install
 #### Default value
 
 ```YAML
-kubetools_flux_version: 2.9.2
+kubetools_flux_version: 2.9.3
 ```
 
 ### kubetools_install_path
