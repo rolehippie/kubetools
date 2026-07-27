@@ -1,5 +1,7 @@
 # Changelog
 
+## [4.16.0](https://github.com/rolehippie/kubetools/compare/v4.15.2...v4.16.0) (2026-07-27)
+
 ## [4.15.2](https://github.com/rolehippie/kubetools/compare/v4.15.1...v4.15.2) (2026-07-20)
 
 ## [4.15.1](https://github.com/rolehippie/kubetools/compare/v4.15.0...v4.15.1) (2026-07-13)
