@@ -1,5 +1,14 @@
 # Changelog
 
+## [4.17.0](https://github.com/rolehippie/kubetools/compare/v4.16.1...v4.17.0) (2026-08-10)
+
+### Dependencies
+
+* **minor:** update dependency argoproj/argo-cd to v3.5.0 ([#310](https://github.com/rolehippie/kubetools/issues/310)) ([082e998](https://github.com/rolehippie/kubetools/commit/082e998c26860477926c24f081067ac8a249c061))
+* **minor:** update dependency pipx:ansible-doctor to v8.4.0 ([#314](https://github.com/rolehippie/kubetools/issues/314)) ([94f4142](https://github.com/rolehippie/kubetools/commit/94f41429f2749383b02cf62f73e69f7525216be5))
+* **patch:** update dependency fluxcd/flux2 to v2.9.4 ([#312](https://github.com/rolehippie/kubetools/issues/312)) ([f9b04c4](https://github.com/rolehippie/kubetools/commit/f9b04c4af7b91fce7fb41eee65e69c8e27d459f8))
+* **patch:** update dependency python to v3.14.7 ([#311](https://github.com/rolehippie/kubetools/issues/311)) ([f17fb38](https://github.com/rolehippie/kubetools/commit/f17fb387e92e3aff746d06e51d1500fdafd16501))
+
 ## [4.16.1](https://github.com/rolehippie/kubetools/compare/v4.16.0...v4.16.1) (2026-08-03)
 
 ### Dependencies
