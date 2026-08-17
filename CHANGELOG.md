@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.18.0](https://github.com/rolehippie/kubetools/compare/v4.17.0...v4.18.0) (2026-08-17)
+
+### Dependencies
+
+* **minor:** update dependency kubernetes-sigs/cluster-api to v1.14.0 ([#317](https://github.com/rolehippie/kubetools/issues/317)) ([368ec79](https://github.com/rolehippie/kubetools/commit/368ec799af04c46e9b6f707f39bc6b54e5f05d3c))
+* **minor:** update dependency pipx:ansible-lint to v26.8.0 ([#318](https://github.com/rolehippie/kubetools/issues/318)) ([9d4b706](https://github.com/rolehippie/kubetools/commit/9d4b706de213eb739a48bf620eb18f79bd69dc83))
+* **minor:** update dependency pipx:molecule to v26.8.0 ([#319](https://github.com/rolehippie/kubetools/issues/319)) ([eb020f6](https://github.com/rolehippie/kubetools/commit/eb020f6022e8ff38b3eaacaa49c2bb31447b11b4))
+* **patch:** update dependency argoproj/argo-cd to v3.5.1 ([#320](https://github.com/rolehippie/kubetools/issues/320)) ([411fd20](https://github.com/rolehippie/kubetools/commit/411fd20ba1dbb172c298d79c117dd7121f8e5098))
+* **patch:** update dependency pipx:ansible-core to v2.21.3 ([#315](https://github.com/rolehippie/kubetools/issues/315)) ([b259287](https://github.com/rolehippie/kubetools/commit/b259287abcda3653a431a5d44dfd4f955e92a4c1))
+* **patch:** update dependency pre-commit to v4.6.2 ([#316](https://github.com/rolehippie/kubetools/issues/316)) ([147bf75](https://github.com/rolehippie/kubetools/commit/147bf75b9008954ea3a2d6f013baf8ac53c02b41))
+
 ## [4.17.0](https://github.com/rolehippie/kubetools/compare/v4.16.1...v4.17.0) (2026-08-10)
 
 ### Dependencies
