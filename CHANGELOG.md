@@ -1,5 +1,13 @@
 # Changelog
 
+## [4.19.0](https://github.com/rolehippie/kubetools/compare/v4.18.0...v4.19.0) (2026-08-31)
+
+### Dependencies
+
+* **minor:** update dependency kubernetes-sigs/kind to v0.33.0 ([#321](https://github.com/rolehippie/kubetools/issues/321)) ([e2e5335](https://github.com/rolehippie/kubetools/commit/e2e533536ed1330ae436776bb4632f5894f027c4))
+* **patch:** update dependency argoproj/argo-cd to v3.5.2 ([#322](https://github.com/rolehippie/kubetools/issues/322)) ([9aa988a](https://github.com/rolehippie/kubetools/commit/9aa988a4390c461884a32d541ef160be6344b4bd))
+* **patch:** update dependency pipx:ansible-doctor to v8.4.1 ([#323](https://github.com/rolehippie/kubetools/issues/323)) ([14acb00](https://github.com/rolehippie/kubetools/commit/14acb001794f70010b6476795ed0b1574c312b88))
+
 ## [4.18.0](https://github.com/rolehippie/kubetools/compare/v4.17.0...v4.18.0) (2026-08-17)
 
 ### Dependencies
