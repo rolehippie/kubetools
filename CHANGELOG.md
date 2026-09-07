@@ -1,5 +1,17 @@
 # Changelog
 
+## [4.20.0](https://github.com/rolehippie/kubetools/compare/v4.19.0...v4.20.0) (2026-09-07)
+
+### Features
+
+* add separate requirements for molecule run ([a01d206](https://github.com/rolehippie/kubetools/commit/a01d20625a5df4522c2b70d6c2345f563929f5b3))
+* use new required facts as attributes ([cb64fbc](https://github.com/rolehippie/kubetools/commit/cb64fbc8adfee5d65894a37cf9dcdcecf3f72da3))
+
+### Dependencies
+
+* **patch:** update dependency fluxcd/flux2 to v2.9.5 ([#324](https://github.com/rolehippie/kubetools/issues/324)) ([80500e4](https://github.com/rolehippie/kubetools/commit/80500e40afabbbbe92dae7b3f2634e0a4887b75a))
+* **patch:** update dependency kubernetes-sigs/cluster-api to v1.14.1 ([#325](https://github.com/rolehippie/kubetools/issues/325)) ([91070a6](https://github.com/rolehippie/kubetools/commit/91070a6ea7998618e19e674973d19692a24d396b))
+
 ## [4.19.0](https://github.com/rolehippie/kubetools/compare/v4.18.0...v4.19.0) (2026-08-31)
 
 ### Dependencies
