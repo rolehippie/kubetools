@@ -66,7 +66,7 @@ Architecture for argocd
 #### Default value
 
 ```YAML
-kubetools_argocd_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
+kubetools_argocd_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'amd64' }}"
 ```
 
 ### kubetools_argocd_download
@@ -106,7 +106,7 @@ Architecture for clusterctl
 #### Default value
 
 ```YAML
-kubetools_clusterctl_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
+kubetools_clusterctl_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'amd64' }}"
 ```
 
 ### kubetools_clusterctl_download
@@ -146,7 +146,7 @@ Architecture for flux
 #### Default value
 
 ```YAML
-kubetools_flux_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
+kubetools_flux_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'amd64' }}"
 ```
 
 ### kubetools_flux_download
@@ -196,7 +196,7 @@ Architecture for k9s
 #### Default value
 
 ```YAML
-kubetools_k9s_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
+kubetools_k9s_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'amd64' }}"
 ```
 
 ### kubetools_k9s_download
@@ -236,7 +236,7 @@ Architecture for kind
 #### Default value
 
 ```YAML
-kubetools_kind_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
+kubetools_kind_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'amd64' }}"
 ```
 
 ### kubetools_kind_download
@@ -276,7 +276,7 @@ Architecture for sonobuoy
 #### Default value
 
 ```YAML
-kubetools_sonobuoy_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
+kubetools_sonobuoy_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'amd64' }}"
 ```
 
 ### kubetools_sonobuoy_download
@@ -316,7 +316,7 @@ Architecture for stern
 #### Default value
 
 ```YAML
-kubetools_stern_arch: "{{ 'arm64' if ansible_architecture == 'aarch64' or ansible_architecture == 'arm64' else 'amd64' }}"
+kubetools_stern_arch: "{{ 'arm64' if ansible_facts['architecture'] in ['aarch64', 'arm64'] else 'amd64' }}"
 ```
 
 ### kubetools_stern_download
