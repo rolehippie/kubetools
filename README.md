@@ -96,7 +96,7 @@ Version of argocd to install
 #### Default value
 
 ```YAML
-kubetools_argocd_version: 3.5.2
+kubetools_argocd_version: 3.5.3
 ```
 
 ### kubetools_clusterctl_arch
