@@ -1,5 +1,14 @@
 # Changelog
 
+## [4.20.1](https://github.com/rolehippie/kubetools/compare/v4.20.0...v4.20.1) (2026-09-14)
+
+### Dependencies
+
+* **mise:** update dependency pipx:ansible-core to v2.21.4 ([#326](https://github.com/rolehippie/kubetools/issues/326)) ([cd2f9a9](https://github.com/rolehippie/kubetools/commit/cd2f9a923009a2362c536f493b2e6c5b20d9f70d))
+* **mise:** update dependency prek to v0.5.3 ([#328](https://github.com/rolehippie/kubetools/issues/328)) ([4578344](https://github.com/rolehippie/kubetools/commit/4578344ebdca6600a1a21621a64968b8b9765a46))
+* **patch:** update dependency argoproj/argo-cd to v3.5.3 ([#329](https://github.com/rolehippie/kubetools/issues/329)) ([fa368f6](https://github.com/rolehippie/kubetools/commit/fa368f6a444ab39c5feac51a9aae09540646e645))
+* **patch:** update dependency kubernetes-sigs/cluster-api to v1.14.2 ([#327](https://github.com/rolehippie/kubetools/issues/327)) ([7ea3a6e](https://github.com/rolehippie/kubetools/commit/7ea3a6e0d9fd850876c3d89a7cce49e3fd363916))
+
 ## [4.20.0](https://github.com/rolehippie/kubetools/compare/v4.19.0...v4.20.0) (2026-09-07)
 
 ### Features
