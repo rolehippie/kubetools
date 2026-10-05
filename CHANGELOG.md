@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.20.2](https://github.com/rolehippie/kubetools/compare/v4.20.1...v4.20.2) (2026-10-05)
+
+### Dependencies
+
+* **mise:** update dependency pipx:ansible-doctor to v8.4.2 ([#330](https://github.com/rolehippie/kubetools/issues/330)) ([432e8f8](https://github.com/rolehippie/kubetools/commit/432e8f8a41d4f2077fa4235c18bf29d963529fe9))
+* **mise:** update dependency pipx:ansible-lint to v26.9.0 ([#331](https://github.com/rolehippie/kubetools/issues/331)) ([3844672](https://github.com/rolehippie/kubetools/commit/3844672405ebaf4851b3c3181a86758b3760f14e))
+* **mise:** update dependency pipx:molecule to v26.9.0 ([#332](https://github.com/rolehippie/kubetools/issues/332)) ([ec023da](https://github.com/rolehippie/kubetools/commit/ec023daa22ca38b4dc606a626ffece8a3432979e))
+* **mise:** update dependency prek to v0.5.4 ([#333](https://github.com/rolehippie/kubetools/issues/333)) ([3c4bb8a](https://github.com/rolehippie/kubetools/commit/3c4bb8a0bd035df9d617c9ca8f17f88213722797))
+* **mise:** update dependency prek to v0.5.5 ([#336](https://github.com/rolehippie/kubetools/issues/336)) ([ec318c6](https://github.com/rolehippie/kubetools/commit/ec318c688e086cdac899f7627c21961ebcd3dd72))
+* **patch:** update dependency fluxcd/flux2 to v2.9.6 ([#335](https://github.com/rolehippie/kubetools/issues/335)) ([c8f1d4e](https://github.com/rolehippie/kubetools/commit/c8f1d4e12a38c38d02149ffacf6e1fba1b88bebf))
+
 ## [4.20.1](https://github.com/rolehippie/kubetools/compare/v4.20.0...v4.20.1) (2026-09-14)
 
 ### Dependencies
