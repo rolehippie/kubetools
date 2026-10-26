@@ -1,5 +1,16 @@
 # Changelog
 
+## [4.21.0](https://github.com/rolehippie/kubetools/compare/v4.20.3...v4.21.0) (2026-10-26)
+
+### Dependencies
+
+* **minor:** update dependency stern/stern to v1.35.0 ([#348](https://github.com/rolehippie/kubetools/issues/348)) ([a50bad4](https://github.com/rolehippie/kubetools/commit/a50bad469b9a5304a00ccacf3f0d9b83c85c153e))
+* **mise:** update dependency pipx:ansible-lint to v26.10.1 ([#344](https://github.com/rolehippie/kubetools/issues/344)) ([fe56359](https://github.com/rolehippie/kubetools/commit/fe56359f7f0b0515b87ac6b9c28fb8fd2f5e350f))
+* **mise:** update dependency pipx:molecule to v26.10.0 ([#343](https://github.com/rolehippie/kubetools/issues/343)) ([77384a7](https://github.com/rolehippie/kubetools/commit/77384a78beab7f61f638670a9767cccd111ae74a))
+* **mise:** update dependency prek to v0.5.6 ([#345](https://github.com/rolehippie/kubetools/issues/345)) ([3382b11](https://github.com/rolehippie/kubetools/commit/3382b11d431df0acb6cd9bd8daad4d3926e5c276))
+* **mise:** update dependency prek to v0.5.7 ([#347](https://github.com/rolehippie/kubetools/issues/347)) ([0ec56bf](https://github.com/rolehippie/kubetools/commit/0ec56bfad99ad3d279ba91da4ba022c707cebf09))
+* **patch:** update dependency argoproj/argo-cd to v3.5.6 ([#346](https://github.com/rolehippie/kubetools/issues/346)) ([18a05ef](https://github.com/rolehippie/kubetools/commit/18a05ef34d58b9b1023da4dec6a27229edc9039a))
+
 ## [4.20.3](https://github.com/rolehippie/kubetools/compare/v4.20.2...v4.20.3) (2026-10-12)
 
 ### Dependencies
